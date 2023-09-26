@@ -8,7 +8,7 @@ margin-left: 3rem;
     position: relative;
     top: 2rem;
     width: 42rem;
-    height: 12rem;
+    height: 11rem;
     left: 35rem;
     box-shadow: 0 0 10px 10px rgb(27, 27, 27);
 }
@@ -17,6 +17,7 @@ margin-left: 3rem;
 position: absolute;
 color: white;
 left: 18rem;
+bottom: 9rem;
 }
 
 .img{
@@ -25,8 +26,42 @@ margin-top: 1.2rem;
 border-radius: 12px;
 }
 
+.img2{
+    position: absolute;
+    left: 39rem;
+    top: 20.5rem;
+    margin-top: 1.2rem;
+}
+.img3{
+    position: absolute;
+    left: 49.5rem;
+    top: 20.5rem;
+    margin-top: 1.2rem;
+}
+
+.img4{
+    position: absolute;
+    left: 60rem;
+    top: 20.5rem;
+    margin-top: 1.2rem;
+}
+
+.img5{
+    position: absolute;
+    left: 70.5rem;
+    top: 20.5rem;
+    margin-top: 1.2rem;
+}
+
+.imgen6{
+    position: absolute;
+    margin-top: 1rem;
+    border-radius: 50%;
+    left: 1rem;
+}
+
 .texto{
-top:4.5rem;
+top:3rem;
 display: flex;
 position: relative;
 width: 42em;
@@ -36,23 +71,151 @@ color: aliceblue;
 .boton{
 display: flex;
 position: relative;
-top:6rem ;
-left: 15rem;
+top:2.1rem ;
+left: 35rem;
 color: rgb(98, 18, 163);
 background-color: rgb(32, 1, 44);
 border-color: rgb(0, 0, 0);
 text-decoration: none;
 height: 1.5rem;
+box-shadow: 2px 2px 5px rgba(114, 8, 146, 0.3); /* Sombras normales */
+transition: box-shadow 0.3s;
 }
 
-.boton2{
+.boton:hover {
+    box-shadow: 4px 4px 10px rgba(218, 68, 255, 0.5); /* Sombras al pasar el cursor */
+  }
+
+.Moretails{
 display: flex;
 position: relative;
-top:4.5rem ;
-left: 20rem;
-color: rgb(98, 18, 163);
-background-color: rgb(32, 1, 44);
-border-color: rgb(0, 0, 0);
-text-decoration: none;
-height: 1.5rem;
+align-items: center;
+background-color: rgb(98, 18, 163);
+top:15rem;
+width: 55rem;
+height: 2.5rem;
+left: 2rem;
+border-radius: 10px;
+}
+
+.Moretails2{
+    display: flex;
+    position: relative;
+    align-items: center;
+    background-color: rgb(98, 18, 163);
+    width: 5rem;
+    height: 2.5rem;
+    left: 50rem;
+    border-radius: 10px;
+    }
+
+.Moretails3{
+    display: flex;
+    position: relative;
+    align-items: center;
+    background-color: rgb(98, 18, 163);
+    width: 20rem;
+    height: 2.5rem;
+    left: 60rem;
+    border-radius: 10px;
+}
+    
+    .Moretext2{
+        background-color: rgb(27, 27, 27);
+        position: relative;
+        top: 16rem;
+        width: 53rem;
+        height: 11rem;
+        left: 3rem;
+        box-shadow: 0 0 10px 10px rgb(27, 27, 27);
+    }   
+
+.Moretext{
+    background-color: rgb(27, 27, 27);
+    position: relative;
+    top: 16rem;
+    width: 53rem;
+    height: 11rem;
+    left: 3rem;
+    box-shadow: 0 0 10px 10px rgb(27, 27, 27);
+}
+
+.textMore{
+padding: 1rem;
+}
+
+.textReview{
+    display: flex;
+    position: relative;
+    top: 0.4rem;
+    padding: 1rem;
+    background-color: rgba(248, 248, 248, 0.459);
+    width: 8rem;
+    height: 0.7rem;
+    border-radius: 10px;
+}
+
+.textReview3{
+    display: flex;
+    position: relative;
+    top: -11.6rem;
+    padding: 1rem;
+    left: 12rem;
+    background-color: rgba(248, 248, 248, 0.459);
+    width: 10rem;
+    height: 0.7rem;
+    border-radius: 10px;
+}
+
+.textReview2{
+    display: flex;
+    position: relative;
+    padding: 1rem;
+    background-color: blanchedalmond;
+    width: 45rem;
+    top: 0.8rem;
+    left: 5rem;
+    border-radius: 10px;
+}
+
+.Moretails2{
+    display: flex;
+    position: relative;
+    align-items: center;
+    background-color: rgb(98, 18, 163);
+    top:19rem;
+    width: 55rem;
+    height: 2.5rem;
+    left: 2rem;
+    border-radius: 10px;
+    }
+    
+    .Moretext2{
+        background-color: rgb(27, 27, 27);
+        position: relative;
+        top: 20rem;
+        width: 53rem;
+        height: 11rem;
+        left: 3rem;
+        box-shadow: 0 0 10px 10px rgb(27, 27, 27);
+    }
+
+.icon{
+display: flex;
+}
+
+.imagenes{
+ display: flex; 
+ position: relative;
+ left:-6rem; 
+}
+
+.imagen{
+position: absolute;
+top:2.8rem;
+}
+
+.imagen2{
+position: absolute;
+top:15rem;
 }

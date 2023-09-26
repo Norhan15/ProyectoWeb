@@ -1,9 +1,14 @@
 .Navbar{
-background-color: rgb(118, 81, 248);
+background-color: rgb(32, 1, 44);
 display: flex;
 height: 10vh;
 justify-content: space-between;
 border-radius: 10px;
+}
+
+.logo{
+display: flex;
+color: aliceblue;
 }
 
 .Navbar ul{
@@ -14,7 +19,7 @@ border-radius: 10px;
 
 .Navbar h1{
     margin: 1.5%;
-    color: aliceblue;
+    color: rgb(98, 18, 163);
 }
 
 .Navbar ul li{
@@ -22,9 +27,13 @@ border-radius: 10px;
 }
 
 .text{
- color: aliceblue;
+ color:rgb(98, 18, 163);
  list-style: none;
 }
+
+.text:hover {
+    box-shadow: 4px 4px 10px rgba(213, 159, 226, 0.5); /* Sombras al pasar el cursor */
+  }
 
 .buscador{
 border-radius: 10px;
@@ -32,8 +41,15 @@ margin-right: 10px;
 }
 
 .styleb{
-color: rgb(98, 18, 163);
-border-color: rgb(0, 0, 0);
-text-decoration: none;
-height: 1.5rem;
+    color: rgb(98, 18, 163);
+    background-color: rgb(32, 1, 44);
+    border-color: rgb(0, 0, 0);
+    text-decoration: none;
+    height: 1.5rem;
+    box-shadow: 2px 2px 5px rgba(114, 8, 146, 0.3); /* Sombras normales */
+    transition: box-shadow 0.3s;
 }
+
+.styleb:hover {
+    box-shadow: 4px 4px 10px rgba(218, 68, 255, 0.5); /* Sombras al pasar el cursor */
+  }

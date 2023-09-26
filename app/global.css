@@ -5,5 +5,88 @@ body{
 /*Page*/
 
 .Titulo{
+    color: white; 
+}
+
+.Descripcion{
+    background-color: rgb(27, 27, 27);
+    text-align: center;
+    position: relative;
+    top: 2rem;
+    width: 60rem;
+    height: 28rem;
+    left: 12rem;
+    padding: 0.5%;
+    box-shadow: 0 0 10px 10px rgb(62, 2, 77);
+}
+
+.destacado{
+display: flex;
+position: relative;
+left: 1rem;
+}
+
+.destacado2{
+    display: flex;
+    position: relative;
+    left: 40rem;
+    top: -23.1rem;
+}
+
+.Moretails{
+    display: flex;
+    position: relative;
+    align-items: center;
+    background-color: rgb(98, 18, 163);
+    top:5rem;
+    width: 80rem;
+    height: 2.5rem;
+    left: 2rem;
+    border-radius: 10px;
+    }
     
+.textMore{
+padding: 1rem;
+}
+
+        
+.img1{
+    position: absolute;
+    left: 3rem;
+    top: 41rem;
+    margin-top: 1.2rem;
+}
+.img2{
+    position: absolute;
+    left: 17rem;
+    top: 41rem;
+    margin-top: 1.2rem;
+}
+
+.img3{
+    position: absolute;
+    left: 31rem;
+    top: 41rem;
+    margin-top: 1.2rem;
+}
+
+.img4{
+    position: absolute;
+    left: 45rem;
+    top: 41rem;
+    margin-top: 1.2rem;
+}
+
+.img5{
+    position: absolute;
+    left: 59rem;
+    top: 41rem;
+    margin-top: 1.2rem;
+}
+
+.img6{
+    position: absolute;
+    left: 73rem;
+    top: 41rem;
+    margin-top: 1.2rem;
 }
